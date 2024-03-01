@@ -1,0 +1,30 @@
+/* Extra small devices (phones, 576px and down) */
+/* CSS rules for extra small devices */
+@media only screen and (max-width: 576px) {
+}
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+  /* CSS rules for small devices */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* CSS rules for medium devices */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* CSS rules for large devices */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    overflow: hidden !important;
+  }
+  header {
+    width: 100%;
+    overflow: hidden;
+    /* display: none; */
+  }
+}
